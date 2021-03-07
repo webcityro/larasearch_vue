@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "The easy way to do the \"R\" in CRUD. The frontend companion to larasearch package for laravel",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
