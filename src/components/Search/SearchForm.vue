@@ -105,9 +105,10 @@
 								v-model="fields.order_by"
 								@input="update('order_by')"
 							>
-								<template v-for="(label, value) in orderBy">
-									<option :key="value+':asc'" :value="value+':asc'">{{ value }} Asc</option>
-									<option :key="value+':desc'" :value="value+':desc'">{{ value }} Desc</option>
+								<!-- eslint-disable-next-line -->
+								<template v-for="(label, value) in orderBy" :key="value">
+									<option :value="value+':asc'">{{ value }} Asc</option>
+									<option :value="value+':desc'">{{ value }} Desc</option>
 								</template>
 							</select>
 							<i
