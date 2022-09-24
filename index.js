@@ -1,6 +1,6 @@
-import SearchForm from "./src/components/Search/SearchForm";
-import SearchResults from "./src/components/Search/SearchResults";
-import SearchPagination from "./src/components/Search/SearchPagination";
+import SearchForm from "./src/components/Search/SearchForm.vue";
+import SearchResults from "./src/components/Search/SearchResults.vue";
+import SearchPagination from "./src/components/Search/SearchPagination.vue";
 import StoreModule from "./src/store/Larasearch";
 
 const LarasearchVue = {

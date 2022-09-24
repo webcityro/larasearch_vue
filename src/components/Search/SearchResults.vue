@@ -40,7 +40,7 @@
 
 <script>
 import { mapState, mapGetters, mapActions } from "vuex";
-import Modal from "../Modal";
+import Modal from "../Modal.vue";
 
 export default {
 	components: {

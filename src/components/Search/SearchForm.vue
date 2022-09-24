@@ -182,7 +182,7 @@
 <script>
 import { debounce, isEqual } from "lodash";
 import { mapActions } from "vuex";
-import Checkbox from "./Form/Checkbox";
+import Checkbox from "./Form/Checkbox.vue";
 
 export default {
 	components: {
